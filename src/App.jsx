@@ -10,7 +10,7 @@ the original insertion order of the keys*/
 function App() {
   /*insert is our current state and 
   setInsert is the function used to update our state*/
-  const [insert,setInsert] = useState(["a","b","c"]);
+  const [insert,setInsert] = useState([]);
   const[newinsert, setNewinsert]=useState("");
 
   function input(event){
